@@ -22,7 +22,8 @@
   "homepage": "https://github.com/sharonhunter/wa-clone#readme",
   "dependencies": {
     "babel-cli": "^6.18.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "express": "^4.14.0"
   },
   "devDependencies": {
     "eslint": "^3.13.0",
