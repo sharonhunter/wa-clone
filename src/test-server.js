@@ -5,7 +5,7 @@ const port = process.env.PORT || 4000;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello All in React Class\n');
+    res.end('Hello People in React Class\n');
 });
 
 server.listen(port, () => {

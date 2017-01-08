@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -Rf dist && babel src -d dist",
     "babel-node": "babel-node",
-    "nodemon": "nodemon --exec npm run babel-node"
+    "nodemon": "nodemon --exec npm run babel-node",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,12 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
   },
   "devDependencies": {
+    "eslint": "^3.13.0",
+    "eslint-plugin-react": "^6.8.0",
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
   }
 }
